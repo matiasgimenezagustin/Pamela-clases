@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    min-height: 1000px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hijo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(129, 129, 129);
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hijo img{
+    width: 250px;
+}

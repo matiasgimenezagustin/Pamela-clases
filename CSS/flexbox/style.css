@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+
+.caja-span{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+/* 
+Etiquetas Inline:
+
+span
+a
+input
+img
+button
+select
+label
+
+
+Etiquetas Block
+
+div (main, header, footer, aside, article, figure, section, nav, body, ul, li, ol)
+hx
+p
+br
+form
+
+*/
+
+a{
+    display: block;
+}

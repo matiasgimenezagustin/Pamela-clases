@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: black;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin-top: 50px;
+}
+
+/* .caja:hover{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    cursor: e-resize;
+} */
+
+/* input:focus-visible{
+    outline: none;
+} */
+
+
+
+
+
+
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    list-style-type: none ;
+}
+
+.navegador ul{
+    display: flex;
+    
+}
+
+
+
+
+.link .submenu{
+    display: none;
+
+}
+
+.link:hover .submenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

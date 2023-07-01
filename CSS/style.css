@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Goldman&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* h3{
+    color: blue;
+} */
+
+body{
+    background-color: brown;
+}
+
+h1{
+    background-color: transparent;
+    font-family: 'Goldman', cursive;
+}
+
+
+.caja{
+    background-color: blueviolet;
+}
+
+/* Buscar Imports locales */

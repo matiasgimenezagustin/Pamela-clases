@@ -1,0 +1,50 @@
+/* CSS = cascade style sheet */
+
+
+/* HAY QUE SER MODERADOS EN EL USO DE IMPORTANT, NO MAS DE 3 Important */
+/* h1{
+    
+    color: brown !important;
+} */
+
+*{
+    font-size: xx-small;
+}
+
+.amarillo{
+    color: yellow;
+    background-color: blue;
+}
+
+h1{
+    color: green;
+    background-color: aqua;
+}
+
+
+/* USAR ID EN CSS ES MALA PRACTICA */
+#pepe{
+    color: rgb(177, 177, 239);
+}
+
+
+/* ES BUENA PRACTICA USAR CLASS */
+.button{
+    border-radius: 5px;
+}
+/* 
+Especificidad:
+1- !important
+2- inline CSS
+3- id
+4- class
+5- elemento
+
+*/
+
+.btn{
+    border-radius: 6px;
+    border: none;
+    background-color: #238636;
+    color: #ffffff;
+}

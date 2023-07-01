@@ -1,0 +1,83 @@
+.padre{
+    min-height: 100vh;
+
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+    row-gap: 150px;
+}
+
+.hijo{
+    flex-basis: 40%;
+    height: 500px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.position{
+    text-align: end;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.first{
+    color: gold;
+}
+
+.second{
+    color: silver;
+}
+
+.third{
+    color: burlywood;
+}
+
+.borde{
+    border: red 3px solid;
+}
+
+.hijo:nth-child(3){
+    background-color: brown;
+    flex-basis: 100%;
+    order: 1;
+}
+
+.hijo:nth-child(6){
+    background-color: brown;
+    flex-basis: 100%;
+    order: 2;
+}
+.hijo:nth-child(1){
+    order: 3;
+}
+.hijo:nth-child(2){
+    order: 4;
+}
+.hijo:nth-child(4){
+    order: 5;
+}
+.hijo:nth-child(5){
+    order: 6;
+}
+
+
+.padre-2{
+    min-height: 20vh;
+    display: flex;
+    background-color: chartreuse;
+}
+
+.hijo-2:nth-child(1){
+    background-color: brown;
+    flex: 2;
+}
+.hijo-2:nth-child(2){
+    background-color: aqua;
+    flex: 1;
+}
+.hijo-2:nth-child(3){
+    background-color: blue;
+    flex: 1;
+}

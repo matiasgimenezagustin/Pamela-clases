@@ -1,0 +1,42 @@
+/* Normalizacion/ normalize */
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.caja{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.padre{
+
+    min-height: 1000px;
+    background-color: green;
+    display: flex;
+    /* gap:10px; */
+    /* gap: 10px; Espacio entre los hijos*/
+    justify-content: space-around; /* Centra Horizontalmente eje X */
+    align-items: center; /* Centra en el eje y verticalmente */
+}
+
+.uno{
+    background-color: brown;
+}
+.dos{
+    background-color: blueviolet;
+}
+.tres{
+    background-color: chocolate;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}

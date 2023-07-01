@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pagina de contacto</h1>
+
+    <form>
+        <label for="nombreUsuario">Ingrese su nombre:</label>
+        <input type="text" placeholder="cosme fulanito" id="nombreUsuario">
+
+        <input type="date">
+        <input type="color">
+        <input type="file">
+        <input type="radio">
+        <input type="password" name="" id="">
+
+
+        <label for="terminos">Acepto terminos y condiciones </label> <input id="terminos" type="checkbox">
+    </form>
+    <h2>Login</h2>
+    <form>
+        <label for="nombre">Ingrese su nombre de usuario:</label>
+        <br>
+        <input type="text" placeholder="pepe123" id="nombre" required minlength="3" maxlength="20"> 
+        <br>
+        <label for="contrasena">Ingrese su contraseña:</label>
+        <br>
+        <input type="password" placeholder="*******" id="contrasena" required minlength="8" maxlength="20">
+        <br>    
+        <label for="email">Ingrese su email:</label>
+        <br>
+        <input type="email" placeholder="cosmeFulanito@gmail.com" id="email" required>
+        <br>
+        <label for="pais">Seleccione su pais</label>
+
+        <select id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="Chile">Chile</option>
+        </select>
+        <label for="mensaje">Ingrese un  mensaje de recomendacion:</label>
+        <textarea id="mensaje" cols="30" rows="10" ></textarea>
+        <input type="submit" value="Entrar">
+        <input type="reset" value="eliminar">
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar </button>
+    </form> 
+
+    <!-- generar el HTMl de la sig pagina  -->
+</body>
+</html>

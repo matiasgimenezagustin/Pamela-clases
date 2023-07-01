@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    background-color: aqua;
+    height: 100vh /* 100% del alto de la pantalla */;
+    align-items: center;
+}
+
+.carta{
+    width: 400px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    
+}
